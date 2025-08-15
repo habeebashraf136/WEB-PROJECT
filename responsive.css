@@ -56,7 +56,7 @@
     }
     .about-container{
         /* position: absolute; */
-        height: 230vh;
+        height: 180vh;
         width: 100%;
         gap: 2rem;
     }
@@ -71,6 +71,10 @@
     .project-container{
         flex-direction: column;
     }
+    .contact-container{
+        height: 80vh;
+        width: 100%;
+    }    
     .contact-container h1{
       font-size: 1.5rem;
       gap: 1rem;
@@ -80,7 +84,6 @@
         height: 100vh;
         padding: 2rem 0;
     }
-
     .input input{
         width: 80vw;
     }
@@ -91,4 +94,5 @@
         width: 80vw;
         /* margin-bottom: 2rem; */
     }
+
 }
