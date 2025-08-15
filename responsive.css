@@ -1,7 +1,7 @@
 @media(max-width:600px) {
     body{
         max-width: 100%;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
     .list{
         display: none;
@@ -55,7 +55,7 @@
     }
     .about-container{
         /* position: absolute; */
-        height: 180vh;
+        height: 230vh;
         width: 100%;
         gap: 2rem;
     }
@@ -69,11 +69,7 @@
     }
     .project-container{
         flex-direction: column;
-    }
-    .contact-container{
-        height: 80vh;
-/*         width: 100%; */
-    }    
+    }   
     .contact-container h1{
       font-size: 1.5rem;
       gap: 1rem;
@@ -95,4 +91,5 @@
     }
 
 }
+
 
