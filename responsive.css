@@ -1,7 +1,9 @@
 @media(max-width:600px) {
+    html{
+        overflow:auto;
+    }
     body{
         max-width: 100%;
-        overflow-x: hidden;
     }
     .list{
         display: none;
@@ -91,5 +93,6 @@
     }
 
 }
+
 
 
